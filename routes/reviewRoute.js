@@ -3,6 +3,7 @@ const {
   createReview,
   getReviews,
   deleteReview,
+  updateReview,
 } = require("../controllers/reviewController");
 const { verifyToken } = require("../middleware/jwt");
 
