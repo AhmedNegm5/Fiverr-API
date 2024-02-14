@@ -3,6 +3,7 @@ const {
   deleteUser,
   getUser,
   updateUser,
+  changePassword,
 } = require("../controllers/userController");
 const { verifyToken } = require("../middleware/jwt");
 
